@@ -1,1 +1,2 @@
-someone
+# homework-goit
+little description

@@ -1,2 +1,0 @@
-# homework-goit
-little description

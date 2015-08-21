@@ -1,0 +1,30 @@
+input#red ~ label[for="red"] ~ .red {background-color: red;color: white;}
+input#green ~ label[for="green"] ~ .green {background-color: green;color: white;}
+input#blue ~ label[for="blue"] ~ .blue {background-color: blue;color: white;}
+
+label[for="red"] {color: red; text-decoration: underline; margin-left: 10px;}
+label[for="green"] {color: green;text-decoration: underline; margin-left: 10px;}
+label[for="blue"] {color: blue;text-decoration: underline; margin-left: 10px;}
+
+span {border-radius: 6px; margin-left: 10px;}
+
+input {display: none;} 
+
+#red:checked ~ .green {display: none}
+#red:checked ~ .blue {display: none;}
+
+#green:checked ~ .red {display: none;}
+#green:checked ~ .blue {display: none;}
+
+#blue:checked ~ .red {display: none;}
+#blue:checked ~ .green {display: none;}
+
+#red:checked ~ label[for="green"] {opacity: .5;}
+#red:checked ~ label[for="blue"] {opacity: .5;}
+
+#green:checked ~ label[for="red"] {opacity: .5;}
+#green:checked ~ label[for="blue"] {opacity: .5;}
+
+#blue:checked ~ label[for="red"] {opacity: .5;}
+#blue:checked ~ label[for="green"] {opacity: .5;}
+

@@ -1,0 +1,3 @@
+tr td:nth-of-type(3), tr td:nth-of-type(5),tr td:nth-of-type(7),tr td:nth-of-type(9) {background-color: #f2f2de;}
+
+tr:nth-of-type(even) {background-color: #ddebf7;}

@@ -1,4 +1,10 @@
-li a[href*=google] {color:#666;}
+﻿li a[href*=google] {color:#666;}
 li a[href*=ya] {color: #f70;}
-li a[target="_blank"]:after {content:"⇱";}
-	
+li a:link[target="_blank"]:after {
+    font-family:Cambria;
+    content: '\21F1';
+    margin-left: 5px;
+    position: absolute;
+    color: #f70;
+    transform: rotate(90deg);
+}

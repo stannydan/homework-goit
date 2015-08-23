@@ -10,21 +10,13 @@ span {border-radius: 6px; margin-left: 10px;}
 
 input {display: none;} 
 
-#red:checked ~ .green {display: none}
-#red:checked ~ .blue {display: none;}
+#red:checked ~ .red {display: none}
+#red:checked ~ label[for="red"] {opacity: .5;}
 
-#green:checked ~ .red {display: none;}
-#green:checked ~ .blue {display: none;}
+#green:checked ~ .green {display: none;}
+#green:checked ~ label[for="green"] {opacity: .5;}
 
-#blue:checked ~ .red {display: none;}
-#blue:checked ~ .green {display: none;}
+#blue:checked ~ .blue {display: none;}
+#blue:checked ~ label[for="blue"] {opacity: .5;}
 
-#red:checked ~ label[for="green"] {opacity: .5;}
-#red:checked ~ label[for="blue"] {opacity: .5;}
-
-#green:checked ~ label[for="red"] {opacity: .5;}
-#green:checked ~ label[for="blue"] {opacity: .5;}
-
-#blue:checked ~ label[for="red"] {opacity: .5;}
-#blue:checked ~ label[for="green"] {opacity: .5;}
 

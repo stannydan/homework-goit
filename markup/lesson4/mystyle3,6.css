@@ -1,0 +1,26 @@
+/*body {font-family: Economica;}*/
+
+
+
+.iv1 {position: absolute; 
+    width: 100%;
+    height: auto;
+    }
+
+a, span{padding-left: 6px;
+    padding-right: 6px;
+ color: #a64dff;
+text-decoration: none
+}
+
+    .cif {border: 1px #a64dff solid;
+        border-radius: 7px;
+    }
+.bifo:before {content: "<<";}
+.afta:after {content: ">>";}
+
+a:hover {background-color:#a64dff;
+    color: white;}
+
+.bifo, .afta {font-size: 12px;
+margin: auto;}

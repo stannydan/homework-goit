@@ -1,0 +1,118 @@
+body {font-family: Trebuchet MS;
+    margin-left: 0;
+    margin-top: 0;}
+
+.photfone {background-image: url(bg.jpg);
+position: relative;
+height: 315px;}
+
+h1 {position: absolute;
+    margin-top: 40px;
+    margin-left: 500px;
+color: #3170a8;
+    font-size: 38px;
+}
+
+.what {color: #ee8129;}
+
+
+
+.womsay {position: absolute;
+    width: 390px;
+    height: 90px;
+    background-color: white;
+    margin-left: 280px;
+    margin-top: 140px;
+}
+
+.womp {margin: 0px;
+font-size: 13px;
+text-align: justify;
+margin-bottom: 10px;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 25px;
+    font-family: Trebuchet MS;
+    word-spacing: 5px;
+    opacity: 0.8;
+}
+
+.staciya {font-size: 13px;
+    font-style: italic;
+    margin-left: 10px;
+    margin-top: 10px;
+color: #3170a8;}
+
+.tochki {margin-left: 10px;
+    margin-right: 15px;
+    opacity: 0.8;}
+
+.Customer { margin-left: 190px;}
+
+.leftarrow {border: 13px solid transparent;
+    width: 0;
+    height: 0;
+    border-right-color: white;
+    border-left: 0;
+margin-top: 170px;
+    margin-left: 267px;
+display: inline-block;
+}
+
+.women {content: url(women.png);
+    position: absolute;
+    margin-top: 140px;
+    margin-left: 150px;
+}
+
+
+
+.mansay {position: absolute;
+    width: 390px;
+    height: 90px;
+    background-color: white;
+    margin-left: 570px;
+    margin-top: 140px;
+    display: inline-block;
+}
+
+.womp {margin: 0px;
+font-size: 13px;
+text-align: justify;
+margin-bottom: 10px;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 25px;
+    font-family: Trebuchet MS;
+    word-spacing: 5px;
+    opacity: 0.8;
+}
+
+.david {font-size: 13px;
+    font-style: italic;
+    margin-left: 10px;
+    margin-top: 10px;
+color: #3170a8;}
+
+.tochki {margin-left: 10px;
+    margin-right: 15px;
+    opacity: 0.8;}
+
+.Customer { margin-left: 190px;}
+
+.rightarrow {border: 13px solid transparent;
+    width: 0;
+    height: 0;
+    border-right-color: white;
+    border-left: 0;
+margin-top: 170px;
+    margin-left: 557px;
+display: inline-block;
+}
+
+.man {content: url(man.png);
+    position: absolute;
+    margin-top: 140px;
+    margin-left: 440px;
+    display: inline-block;
+}

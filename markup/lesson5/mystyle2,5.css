@@ -1,8 +1,8 @@
 .container {position: relative;
-    width: 300px;
+    width: 350px;
     height: auto;
 background-color: #ee8129;
-    font-family: Economica;
+    font-family: Trebuchet MS;
     border-radius: 4px;
     padding-top: 30px;
     padding-left: 6px;
@@ -35,17 +35,22 @@ font-weight: bold;
  
 sup {vertical-align: top;}
 
-ul {font-size: 28px;
+ul {font-size: 24px;
     text-align: left;
-padding: 0;}
+padding: 0;
+margin-top: 20px;
+}
 
 li {list-style-type: none;
+    margin-bottom: 2px;
+    opacity: 0.5;
 }
 li:nth-child(odd) {background-color: #edf5fd;}
 li:nth-child(even) {background-color: #f5f5f6;}
 li:before {content: url(marker.png);
     padding-right: 20px;
-padding-left: 30px;}
+padding-left: 30px;
+}
 
 button {color: white;
     text-align: center;
@@ -53,7 +58,7 @@ width: 255px;
     height: 40px;
 background-color:  #ee8129;
 border-radius: 6px;
-margin-left: 10px;
+margin-left: 36px;
 margin-bottom: 30px;
 font-size: 20px;
     border-style: outset;

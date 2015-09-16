@@ -1,18 +1,27 @@
-div {background: #a64dff;
+body {box-shadow:  0 0 3px;
+margin-top: 0;
+margin-left: 0;}
+
+
+
+div {background:  rgba(166,77,255,1);
     width: 100%;
     height: auto;
-    padding-left: 50px;
+   
+    
     
 }
 
 
 div.menu {width: 900px;
+    text-align: center;
+    margin-left: 200px;
 }
 
 a { display: inline-block;
     font-family: Economica;
     color: white;
-    font-size: 24px;
+    font-size: 16px;
     font-weight:bold;
     padding-left: 15px;
     padding-right: 15px;
@@ -24,6 +33,7 @@ a { display: inline-block;
 
 a:hover {color: #9f9fa1;
     background-color: #eeeeee; 
+    box-shadow:  0 0 8px ;
 }
 
 a.more{

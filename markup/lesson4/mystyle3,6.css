@@ -1,16 +1,28 @@
-/*body {font-family: Economica;}*/
+
+.main {position: relative;
+    width: 540px;
+    height: 30px;
+    margin-top: 50px;
+    margin-left: 400px;
+background-color: gainsboro;}
 
 
 
-.iv1 {position: absolute; 
-    width: 100%;
+.iv1 { margin-top: 6px;
+    margin-left: 30px;
+    position: absolute;
+    width: 480px;
     height: auto;
+    font-family: sans-serif;
+    text-align: center;
+    
     }
 
 a, span{padding-left: 6px;
     padding-right: 6px;
  color: #a64dff;
-text-decoration: none
+text-decoration: none;
+    font-size: 13px;
 }
 
     .cif {border: 1px #a64dff solid;
@@ -20,7 +32,9 @@ text-decoration: none
 .afta:after {content: ">>";}
 
 a:hover {background-color:#a64dff;
-    color: white;}
+    color: white;
+    
+}
 
 .bifo, .afta {font-size: 12px;
-margin: auto;}
+}

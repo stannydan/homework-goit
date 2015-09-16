@@ -1,11 +1,13 @@
-body {font-family: Trebuchet MS;}
+body {font-family: Trebuchet MS;
+position: relative;}
 .mainheader {
 width: auto;
 height: 700px;
-position: relative;
+margin-left: auto;
+    margin-right: auto;
 }
 
-h1 {text-align: center;
+h1 {margin-left: 240px;
     margin-top: 60px;}
 
 span {font-size: 52px;
@@ -89,9 +91,9 @@ font-size: 20px;
 background-color: #ee8129;
     border-radius: 4px;
     padding-top: 36px;
-    padding-left: 6px;
-    padding-right: 6px;
-    padding-bottom: 8px;
+    padding-left: 3px;
+    padding-right: 3px;
+    padding-bottom: 3px;
     box-shadow: 0 0 5px;
     display: inline-block;
     z-index: 1;
@@ -124,7 +126,7 @@ width: 255px;
 background-color:  #ee8129;
 border-radius: 6px;
 margin-left: 10px;
-margin-bottom: 30px;
+margin-bottom: 40px;
 font-size: 20px;
     border-style: outset;
 }
@@ -133,7 +135,7 @@ font-size: 20px;
 
 #container3 {
     position: absolute;
-    margin-left: 823px;
+    margin-left: 815px;
     margin-top: 110px;
     width: 300px;
     height: auto;

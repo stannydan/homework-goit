@@ -1,26 +1,35 @@
-div {background: #a64dff;
-    width: 100%;
+body {box-shadow:  0 0 3px;
+margin: 8px;}
+
+
+.main {background: #a64dff;
     height: auto;
-    padding-left: 60px;
+    width: 100%;
     
 }
 
 
-div.menu {width: 900px;}
+div.menu {
+    width: 900px;
+ text-align: center;
+    margin-left: 200px;
+}
 
 a { display: inline-block;
     font-family: Economica;
     color: white;
-    font-size: 24px;
+    font-size: 16px;
     font-weight:bold;
     padding-left: 15px;
     padding-right: 15px;
     padding-top: 7px;
     padding-bottom: 7px;
     text-decoration: none;
+   
     
   }
 
 a:hover {color: #9f9fa1;
     background-color: #eeeeee; 
+    box-shadow:  0 0 8px ;
 }
